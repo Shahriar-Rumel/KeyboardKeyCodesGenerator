@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding :0;
+    background-image: url('images/background.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow-x:hidden ;
+    font-family: Marvel,sans-serif;
+}
+nav{
+    background-color: rgba(212, 211, 211, 0.137);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img{
+    max-width:90px;
+}
+.button{
+    margin-top:100px;
+  
+}
+.button button{
+    width:300px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 30px;
+    border: 0.5px solid rgba(179, 179, 179, 0.377);
+    cursor: pointer;
+    background-color: rgba(5, 128, 122, 0.109);
+    color:rgb(228, 226, 226);
+    border-radius:5px ;
+    font-family: Marvel,sans-serif;
+}
+button:focus{
+    outline:none;
+}
+.keys{
+ 
+    position: absolute;
+    width:90%;
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.key{
+    background-color:rgba(48, 49, 49, 0.212);
+    width:90%;
+    margin:10px;
+    text-align: center;
+    height: 120px;
+    border-radius: 5px;
+    border:0.5px solid rgba(199, 199, 199, 0.198);
+    padding: 5px;
+}
+.key h2{
+    color:rgb(184, 182, 182);
+    font-size: 30px;
+}
+.key small{
+    color:rgb(8, 228, 209);
+    font-size: 14px;
+}
+.button.active{
+    display:none;
+}
+.warning{
+    color:rgba(201, 207, 207, 0.986);
+    position: absolute;
+    margin-top: -60px;
+}
